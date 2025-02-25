@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+body {
+    background: linear-gradient(to bottom, #1A2A3A, #ebebb8);
+    min-height: 100vh;
+    justify-content: center;
+    font-family: 'Sofia-sans', sans-serif;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.navbar {
+    background-color: #1A2A3A;
+    overflow: hidden;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    border-radius: 10px;
+    z-index: 1000;
+    height: 50px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.4s, color 0.4s;
+}
+
+.navbar a:hover {
+    background-color: #033649;
+        padding: 14px 20px;
+    }
+
+.imagem-fundo {
+    position: absolute; 
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 50px);
+    background-image: url('image/site-background.png');
+    background-size: cover;
+    background-position: top center;
+    opacity: 0.10;
+    z-index: 1001;
+    background-attachment: fixed;
+    }
